@@ -39,4 +39,4 @@ else
 fi
 sudo usermod -G nagcmd apache
 sudo htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
-echo "Nagios is up and running.You shoud install Nagios plugins to be able to monitor the remote hosts"
+echo "Nagios is up and running.You should install Nagios plugins to be able to monitor the remote hosts"
