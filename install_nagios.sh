@@ -39,5 +39,9 @@ else
 fi
 sudo usermod -G nagcmd apache
 sudo htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
+<<<<<<< HEAD
 echo "Nagios is up and running.You shoud install Nagios plugins to be able to monitor the remote hosts"
 
+=======
+echo "Nagios is up and running. Install nagios plugins to be able to monitor the remote hosts"
+>>>>>>> a4ebd963ed432e0efc4326e9277961cab35ca982
